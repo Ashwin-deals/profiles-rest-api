@@ -34,7 +34,7 @@ python3 -m venv $PROJECT_BASE_PATH/env
 
 # Install Python requirements and uWSGI inside the virtual environment
 # We explicitly call python3 to use the correct interpreter.
-$PROJECT_BASE_PATH/env/bin/pip install -r $PROJECT_BASE_PATH/requirements.txt uwsgi==2.0.21
+$PROJECT_BASE_PATH/env/bin/pip install -r $PROJECT_BASE_PATH/requirements.txt uwsgi
 
 # Run migrations
 # We explicitly call python3 from the environment
